@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>EC Page</title>
+    <link rel="stylesheet" href="./css/base.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <a href="./"> <img src="./img/logo.png" /></a>
+      </div>
+      <div class="searchMobile">
+        <img class="search_mobile_icon" src="./img/search.png" />
+      </div>
+      <form class="form_mobile" method="GET">
+        <input type="text" class="text_mobile" name="keyword" />
+      </form>
+      <nav>
+        <div class="item">
+          <a href="./?tag=women">女裝</a>
+        </div>
+        <div class="item">
+          <a href="./?tag=men">男裝</a>
+        </div>
+        <div class="item">
+          <a href="./?tag=accessories">配件</a>
+        </div>
+      </nav>
+      <div class="feature">
+        <form class="form" method="GET">
+          <input type="text" class="search" name="keyword" />
+        </form>
+        <a href="cart.html" class="cart">
+          <div id="cart-qty" class="qty">0</div>
+        </a>
+        <div class="member">
+          <img src="./img/member.png" />
+        </div>
+      </div>
+    </header>
+    <nav class="mobile">
+      <div class="item">
+        <a href="?tag=women">女裝</a>
+      </div>
+      <div class="item">
+        <a href="?tag=men">男裝</a>
+      </div>
+      <div class="item" style="border-right: 0px">
+        <a href="?tag=accessories">配件</a>
+      </div>
+    </nav>
+    <div class="feature-mobile">
+      <div class="item" href="cart.html">
+        <div class="cart">
+          <div id="cart-qty" class="qty">0</div>
+        </div>
+        &nbsp &nbsp &nbsp 購物車
+      </div>
+      <div class="member" href="member.html">
+        <img class="member" src="img/member-mobile.png" />
+        &nbsp &nbsp &nbsp 會員
+      </div>
+    </div>
+    <div class="keyvisual" id="keyvisual">
+      <a class="visual"><img class ="visual" src =./img/keyvisual_0.jpg></a>
+      <!-- <a class="visual"><img class ="visual" src =../img/keyvisual_1.jpg></a> -->
+      <!-- <a class="visual"><img class ="visual" src =../img/keyvisual_2.jpg></a> -->
+      <div class="step">
+        <a class="circle"></a>
+        <a class="circle"></a>
+        <a class="circle"></a>
+      </div>
+    </div>
+    <main>
+      <div class="products" class="products"></div>
+    </main>
+    <footer>
+      <div class="view">
+        <div class="link n1">
+          <div class="item">關於 Stylish</div>
+          <div class="item">服務條款</div>
+          <div class="item">隱私條款</div>
+        </div>
+        <div class="link n2">
+          <div class="item">聯絡我們</div>
+          <div class="item">FAQ</div>
+        </div>
+        <div class="social">
+          <img src="img/line.png" />
+          <img src="img/twitter.png" />
+          <img src="img/facebook.png" />
+        </div>
+        <div class="copyright" style="color: #828282">
+          &copy 2018. All rights reserved.
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
